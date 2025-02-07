@@ -7,3 +7,6 @@
 body {
   background-color: aliceblue;
 }
+body[data-theme="dark"] {
+  background-color: #141d2f;
+}

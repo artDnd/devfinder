@@ -30,7 +30,7 @@ function App() {
     <div className={styles.container}>
       <Header />
       <Search fetchUser={fetchUser} />
-      <UserCard {...user} />
+      {user && <UserCard {...user} />}
     </div>
   );
 }
