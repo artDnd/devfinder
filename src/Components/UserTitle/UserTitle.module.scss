@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  .name {
+    margin: 10px 0 40px 0;
+  }
+  .login {
+    color: #0079ff;
+    font-weight: bold;
+  }
+  .created {
+    margin-top: 15px;
+  }
+}
